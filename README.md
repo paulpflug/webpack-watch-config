@@ -1,11 +1,11 @@
-# webpack-watcher
+# webpack-watch-config
 
 use as a drop-in replacement of `webpack --watch`.
 Reloads webpack on configuration changes.
 
 ### Install
 ```sh
-npm install --save webpack-watcher
+npm install --save webpack-watch-config
 ```
 
 ### Usage
