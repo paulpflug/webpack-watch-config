@@ -1,0 +1,40 @@
+{
+  "name": "webpack-watch-config",
+  "description": "watches a webpack.config file and restarts webpack on change",
+  "version": "0.0.0",
+  "homepage": "https://github.com/paulpflug/",
+  "author": {
+    "name": "Paul Pflugradt",
+    "email": "paul.pflugradt@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulpflug/webpack-watch-config"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "bin": {
+    "webpack-watch": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "peerDependencies": {
+    "webpack": "*"
+  },
+  "dependencies": {
+    "read-conf": "^0.3.1"
+  },
+  "keywords": [
+    "webpack",
+    "watch"
+  ],
+  "readmeFilename": "README.md",
+  "scripts": {
+    "preversion": "",
+    "version": "git add .",
+    "postversion": "git push && git push --tags && npm publish"
+  }
+}
